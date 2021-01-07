@@ -8,6 +8,6 @@ describe('<Main />', () => {
 
     expect(
       screen.getByRole('heading', { name: /React avançado/i })
-    ).toBeInstanceOf(HTMLElement)
+    ).toBeInTheDocument()
   })
 })
